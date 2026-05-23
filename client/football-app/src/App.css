@@ -1,0 +1,81 @@
+#root {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Styles for the SearchBar component */
+.search-bar-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.search-bar-container h2 {
+  color: #9e1c25;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.search-bar-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 15px;
+}
+
+.search-bar-grid input,
+.search-bar-grid select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Styles for the PlayerList component */
+.player-list-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-list-container h2 {
+  color: #9e1c25;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Base table styles from the previous suggestion */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #9e1c25;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
